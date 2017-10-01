@@ -1,2 +1,2 @@
 # Truco
-truco básico orientado a objetos
+Algoritmo simples de Truco, por enquanto.
