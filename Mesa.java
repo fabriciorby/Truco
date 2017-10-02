@@ -31,7 +31,7 @@ public class Mesa{
                 else if (c.naipe().getRank() > bestCard.naipe().getRank())
                     bestCard = c;
             }
-            else if (c.valor().getRank() > bestCard.valor().getRank())
+            else if (c.valor().getRank() > bestCard.valor().getRank() && bestCard.valor().getRank() != manilha.getRank())
                 bestCard = c;
         }
         
